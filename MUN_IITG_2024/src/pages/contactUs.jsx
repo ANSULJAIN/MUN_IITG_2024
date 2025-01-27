@@ -27,7 +27,7 @@ const ContactUs = () => {
         <>
             <Mnavbar/>
           {!isMobileView && <Navbar />}
-            <PageHeader title={'Contact Us'} color={'#F8506B'}/>
+            <PageHeader title={'For more queries'} color={'#FFE3BC'}/>
             <ContactDetails/>
             <Map/>
             <Footerm />

@@ -3,30 +3,14 @@ import TimelineModal from './timelineModal';
 import timelineData from '../../data/timelineData'
 import arrow from '../../assets/prevEditions/arrow.svg'
 
+
 const Timeline = () => {
     
 
     
     return ( 
-        <div className={styles.timeline}>
-                {
-                    Object.entries(timelineData).map(([year,arr])=>(
-                        <div className={styles.container} key={year}>
-                            <div className={styles.side}>
-                                <div className={styles.circle} />
-                                {/* <div className={styles.arrow}></div> */}
-                                <div className={styles.sideContent}>
-                                    <img className={styles.arrow} src={arrow} alt="" />
-                                    <p className={styles.year}>{year}</p>
-                                    <p className={styles.edition}>{year==="2024"?"Edition XVI":year==="2023"?"Edition XV":"Edition XIV"}</p>
-                                </div>
-                            </div>
-                            <div className={styles.modal}>
-                            <TimelineModal  year={year} arr={arr} />
-                            </div>
-                        </div>
-                    ))
-                }
+        <div className='timeline'>
+                <img className='img1' src='src/data/newAssets/previous_editions/part1.png'></img>
         </div>
      );
 }

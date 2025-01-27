@@ -8,7 +8,7 @@
 :root {
     --ff-mons: "Montserrat", sans-serif;
     --ff-cabi: Cabinet;
-    --f-color-b: #3245A9;
+    --f-color-b: #9f1414;
     --f-color-r: #F22949;
 }
 
@@ -288,7 +288,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: #E0F9EE;
+    background-color: #FFE3BC;
 }
 
 .comm_comp {
@@ -415,49 +415,33 @@
     background-color: #3245A9;
 }
 
-.pie_chart_container {
-    height: 60.13vw;
+.red_container {
+    height: 30vw;
     width: 100vw;
-    position: relative;
+    background-color: #9f1414;
+    /* position: relative; */
+    align-items: center;
+    display: flex;
+    flex-direction: row;
 }
 
-.pie_circle_1 {
-    height: 22vw;
-    width: 22vw;
-    background-color: #F8506B;
-    border-radius: 50%;
-    left: 43.84vw;
-    top: 13.95vw;
+.divis{
+    width: 33vw;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 64px;
+    color: #fafafa;
+    justify-content: center;  
+
 }
 
-.sep_class_1 {
-    font-size: 6.22vw;
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-.pie_circle_2 {
-    height: 17.24vw;
-    width: 17.24vw;
-    background-color: #AAB4E7;
-    border-radius: 50%;
-    left: 29.63vw;
-    top: 24.96vw;
-}
-
-.sep_class_2 {
-    font-size: 4.87vw;
-}
-
-.pie_circle_3 {
-    height: 12.32vw;
-    width: 12.32vw;
-    background-color: #A0EDC9;
-    border-radius: 50%;
-    left: 44.4vw;
-    top: 33.56vw;
-}
-
-.sep_class_3 {
-    font-size: 3.46vw;
+.para{
+    font-size: 24px;
+    word-wrap: break-word;
 }
 
 .align_center {

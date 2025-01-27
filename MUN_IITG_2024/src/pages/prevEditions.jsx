@@ -25,7 +25,7 @@ const PrevEditions = () => {
         <div className="overflow-x-hidden">
             <Mnavbar/>
           {!isMobileView && <Navbar />}
-            <PageHeader title={'Previous Editions'} color={'#AAB4E7'}/>
+            <PageHeader title={'Our Previous Editions'} color={'#FFE3BC'}/>
             <Timeline/>
             <Footerm/>
         </div>

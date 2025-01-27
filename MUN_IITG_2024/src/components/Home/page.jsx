@@ -2,13 +2,13 @@ import "./mun.css";
 import "./position.css";
 import "./mobile_ver.css";
 import { Carousel } from '@heathmont/moon-core-tw';
-
+// import {XVIIAnimation} from "page2.jsx";
 
 import { ControlsChevronLeftSmall, ControlsChevronRightSmall } from '@heathmont/moon-icons-tw';
 
 // import { Carousel } from 'flowbite-react';
 
-import logo_1 from "./resources/Group 112.png";
+import logo_1 from "./resources/hehe.png";
 import logo_2 from "./resources/Group 34471.png";
 import logo_3 from "./resources/Group 34473.png";
 import logo_4 from "./resources/Wilson.png";
@@ -52,13 +52,10 @@ const Mun = () => {
     const [isMobileView, setIsMobileView] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(0);
     const items = Array.from({ length: 25 }, (index) => index);
-    // Define a function to handle left arrow click
     useEffect(() => {
         const handleResize = () => {
-            setIsMobileView(window.innerWidth <= 600); // Adjust the width breakpoint as needed
+            setIsMobileView(window.innerWidth <= 600); 
         };
-
-        // Initial check on component mount
         handleResize();
 
         window.addEventListener('resize', handleResize);
@@ -237,23 +234,7 @@ const Mun = () => {
             {!isMobileView && <Navbar />}
 
             <div className="logo_container">
-
-                <div className="color_logo color_logo_1"></div>
-                <div className="color_logo color_logo_2"></div>
-                <div className="color_logo color_logo_3"></div>
-                <div className="color_logo color_logo_4"></div>
-                <img src={logo_1} alt="" className="img_logo img_logo_1" />
-                <img src={logo_2} alt="" className="img_logo img_logo_2" />
-                <img src={logo_4} alt="" className="img_logo img_logo_4" />
-                <img src={logo_3} alt="" className="img_logo img_logo_3" />
-                <div className="img_logo img_logo_5">
-                    <div className="rel_box">
-                        <p className="font_logo cabi_font_1 all_font pad">IITGMUN</p>
-                        <p className="font_logo cabi_font_2 all_font pad">2024</p>
-                        <p className="font_logo mons_font_1 all_font pad">Edition XVI</p>
-                        <p className="font_logo mons_font_2 all_font pad">8th - 10th March 2024</p>
-                    </div>
-                </div>
+                <img src={logo_1} alt="" />
 
             </div>
             <div className="quotes_container">
@@ -273,7 +254,7 @@ const Mun = () => {
             <div className="comm_post_container">
 
                 <div className="flex flex-row flex-nowrap px-9 w-full align-center justify-center items-center h-[5vw]">
-                    <p className="mq350:text-[18px] font-raleway font-black mq520:text-xl text-2xl sm:text-3xl md:text-4xl mr-4 mq520:text-wrap text-nowrap" style={{ color: '#3245A9' }}>Our Commities </p>
+                    <p className="mq350:text-[18px] font-raleway font-black mq520:text-xl text-2xl sm:text-3xl md:text-4xl mr-4 mq520:text-wrap text-nowrap" style={{ color: '#3245A9' }}>Join Our Commities </p>
                     <hr className="w-full opacity-100 border-t-2 -translate-y-1" style={{ color: '#3245A9' }} />
                 </div>
                 <div className="comm_comp">
@@ -383,141 +364,27 @@ const Mun = () => {
                     </div>
                 </div>
             </div>
-            <div className="pie_chart_container">
-                <div className="align_center pie_circle_1">
-                    <p className="cabi_font sep_class_1">1200+</p>
-                    <div className="line_box_1 line_box">
-                        <h2 className="heading_line mons_font all_font ff_1">Delegates</h2>
-                        <p className="para_line mons_font all_font">from all over India</p>
-                    </div>
+            <div className="red_container">
+                <div className="divis">
+                    <div className="text">
+                    1200+
+                    <p className="para">Delegates</p>
+                    <p className="para">from all over India</p>
                 </div>
-                <div className="align_center pie_circle_2">
-                    <p className="cabi_font sep_class_2">75+</p>
-                    <div className="line_box_2 line_box">
-                        <h2 className="heading_line mons_font all_font">Executives</h2>
-                        <p className="para_line mons_font all_font ff_2">overall</p>
-                    </div>
                 </div>
-                <div className="align_center pie_circle_3">
-                    <p className="cabi_font sep_class_3">100+</p>
-                    <div className="line_box_3 line_box">
-                        <h2 className="heading_line mons_font all_font ff_3">International Presses</h2>
-                        <p className="para_line mons_font all_font">from country and beyond</p>
-                    </div>
-                </div>
+                <div className="divis">
+                <div className="text">
+                    75+
+                    <p className="para">Executives</p>
+                    <p className="para">Overall</p>
+                </div></div>
+                <div className="divis">
+                <div className="text">
+                    100+
+                    <p className="para">International Presses</p>
+                    <p className="para">From Country and Beyond</p>
+                </div></div>
             </div>
-
-            {/* <div className="reviews_container">
-                <img src={left_point} className="left_point pointer" alt="" onClick={handleLeftArrowClick}/>
-                <div className="reviews_box">
-                    <div className="review_card_cat_4 position_l3">
-                        <img src={Data[currentIndex].image} className="rectangle_4" alt="" />
-                        <img src={Data[currentIndex].profileImage} className="male_profile_4" alt="" />
-                        <div className="bio_heading_4">
-                            <h2 className="mons_font cf2 review_f_size_4 all_font">Vishwaprasanna Hariharan</h2>
-                            <p className="mons_font cf2 review_f_size_4 all_font boldness">Delegate</p>
-                        </div>
-                        <div className="comment_4">
-                            <p className="mons_font cf2 review_f_size_4 all_font boldness">"It's a really amazing platform to learn not only about the affairs of
-                                the world but also about how to articulate your thoughts and put them into words."
-                            </p>
-                        </div>
-                    </div>
-                    <div className="review_card_cat_3 position_l2">
-                        <img src={Data[currentIndex+1].image} className="rectangle_3" alt="" />
-                        <img src={Data[currentIndex+1].profileImage} className="male_profile_3" alt="" />
-                        <div className="bio_heading_3">
-                            <h2 className="mons_font cf2 review_f_size_3 all_font">Vishwaprasanna Hariharan</h2>
-                            <p className="mons_font cf2 review_f_size_3 all_font boldness">Delegate</p>
-                        </div>
-                        <div className="comment_3">
-                            <p className="mons_font cf2 review_f_size_3 all_font boldness">"It's a really amazing platform to learn not only about the affairs of
-                                the world but also about how to articulate your thoughts and put them into words."
-                            </p>
-                        </div>
-                    </div>
-                    <div className="review_card_cat_2 position_l1">
-                        <img src={Data[currentIndex+2].image} className="rectangle_2" alt="" />
-                        <img src={Data[currentIndex+3].profileImage} className="male_profile_2" alt="" />
-                        <div className="bio_heading_2">
-                            <h2 className="mons_font cf2 review_f_size_2 all_font">Vishwaprasanna Hariharan</h2>
-                            <p className="mons_font cf2 review_f_size_2 all_font boldness">Delegate</p>
-                        </div>
-                        <div className="comment_2">
-                            <p className="mons_font cf2 review_f_size_2 all_font boldness">"It's a really amazing platform to learn not only about the affairs of
-                                the world but also about how to articulate your thoughts and put them into words."
-                            </p>
-                        </div>     
-                    </div>
-                    <div className="review_card_cat_1">
-                        <img src={Data[currentIndex+3].image} className="rectangle" alt="" />
-                        <img src={Data[currentIndex+3].profileImage} className="male_profile" alt="" />
-                        <div className="bio_heading">
-                            <h2 className="mons_font cf2 review_f_size all_font">Vishwaprasanna Hariharan</h2>
-                            <p className="mons_font cf2 review_f_size all_font">Delegate</p>
-                        </div>
-                        <div className="comment">
-                            <p className="mons_font cf2 review_f_size all_font">"It's a really amazing platform to learn not only about the affairs of
-                                the world but also about how to articulate your thoughts and put them into words."
-                            </p>
-                        </div>
-                        <div className="stars_box"></div>
-                    </div>
-                    <div className="review_card_cat_2 position_r1">
-                        <img src={grey_frame} className="rectangle_2" alt="" />
-                        <img src={male_profile} className="male_profile_2" alt="" />      
-                        <div className="bio_heading_2">
-                            <h2 className="mons_font cf2 review_f_size_2 all_font">Vishwaprasanna Hariharan</h2>
-                            <p className="mons_font cf2 review_f_size_2 all_font boldness">Delegate</p>
-                        </div>
-                        <div className="comment_2">
-                            <p className="mons_font cf2 review_f_size_2 all_font boldness">"It's a really amazing platform to learn not only about the affairs of
-                                the world but also about how to articulate your thoughts and put them into words."
-                            </p>
-                        </div>   
-                    </div>
-                    <div className="review_card_cat_3 position_r2">
-                        <img src={orange_frame} className="rectangle_3" alt="" />
-                        <img src={male_profile} className="male_profile_3" alt="" /> 
-                        <div className="bio_heading_3">
-                            <h2 className="mons_font cf2 review_f_size_3 all_font">Vishwaprasanna Hariharan</h2>
-                            <p className="mons_font cf2 review_f_size_3 all_font boldness">Delegate</p>
-                        </div>
-                        <div className="comment_3">
-                            <p className="mons_font cf2 review_f_size_3 all_font boldness">"It's a really amazing platform to learn not only about the affairs of
-                                the world but also about how to articulate your thoughts and put them into words."
-                            </p>
-                        </div>
-                    </div>
-                    <div className="review_card_cat_4 position_r3">
-                        <img src={pink_right} className="rectangle_4" alt="" />
-                        <img src={male_profile} className="male_profile_4" alt="" />  
-                        <div className="bio_heading_4">
-                            <h2 className="mons_font cf2 review_f_size_4 all_font">Vishwaprasanna Hariharan</h2>
-                            <p className="mons_font cf2 review_f_size_4 all_font boldness">Delegate</p>
-                        </div>
-                        <div className="comment_4">
-                            <p className="mons_font cf2 review_f_size_4 all_font boldness">"It's a really amazing platform to learn not only about the affairs of
-                                the world but also about how to articulate your thoughts and put them into words."
-                            </p>
-                        </div>                      
-                    </div>
-                </div>
-                <img src={right_point} className="right_point pointer" alt="" onClick={handleRightArrowClick}/>
-            </div>  */}
-            {/* <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
-      <Carousel onSlideChange={(index) => console.log('onSlideChange()', index)}>
-        <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
-          Slide 1
-        </div>
-        <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
-          Slide 2
-        </div>
-        <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
-          Slide 3
-        </div>
-      </Carousel>
-    </div> */}
 
             <div className="flex flex-row flex-nowrap px-9 w-full align-center justify-center items-center h-[25vh] bg-[#FFF7E4] modify_carousel">
           <p className="mq350:text-[18px] font-raleway font-black mq520:text-xl text-2xl sm:text-3xl md:text-4xl mr-4 mq520:text-wrap text-nowrap" style={{ color: '#3245A9' }}>Lets Read Some Reviews</p>  
@@ -529,26 +396,10 @@ const Mun = () => {
                 <Carousel className='carosol_container' >
                     {({ firstVisibleIndex, lastVisibleIndex }) => (
                         <>
-                            {/* <Carousel.LeftArrow>
-            <ControlsChevronLeftSmall />
-          </Carousel.LeftArrow> */}
                             <Carousel.Reel style={{ overflow: 'hidden' }} className="reel_container">
                                 {Data.map((data, index) => (
                                     <Carousel.Item key={index} className="w-100 h-70">
 
-                                        {/* <div className="review_card_cat_4 position_r3">
-                        <img src={pink_right} className="rectangle_4" alt="" />
-                        <img src={male_profile} className="male_profile_4" alt="" />  
-                        <div className="bio_heading_4">
-                            <h2 className="mons_font cf2 review_f_size_4 all_font">Vishwaprasanna Hariharan</h2>
-                            <p className="mons_font cf2 review_f_size_4 all_font boldness">Delegate</p>
-                        </div>
-                        <div className="comment_4">
-                            <p className="mons_font cf2 review_f_size_4 all_font boldness">"It's a really amazing platform to learn not only about the affairs of
-                                the world but also about how to articulate your thoughts and put them into words."
-                            </p>
-                        </div>                      
-                    </div> */}
                                         <div className="review_card_cat_1">
                                             <img src={data.image} className="rectangle" alt="" />
                                             <img src={data.profileImage} className="male_profile" alt="" />

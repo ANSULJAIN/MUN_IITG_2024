@@ -15,8 +15,8 @@ export default function Footer() {
             <a href='https://twitter.com/iitg_mun' target='_blank' className='no-underline text-[black]'><i className="bi bi-twitter-x fs-3"></i></a>
 
             </div>
-            <p>Designed by Adi and Abdul </p>
-            <p>Developed by Ansul, Devesh and  Deepak</p>
+            <p>Designed by Sandeep</p>
+            <p>Developed by Aadi, Purab and Kavya</p>
             <p>
                 Conference Hall, IIT Guwahati
             </p>
