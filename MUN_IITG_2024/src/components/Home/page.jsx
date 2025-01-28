@@ -8,6 +8,11 @@ import { ControlsChevronLeftSmall, ControlsChevronRightSmall } from '@heathmont/
 
 // import { Carousel } from 'flowbite-react';
 
+import ecofin_pic from "./resources/ecofin_left_pic.png";
+import disec_pic from "./resources/disec1.png"
+import globe from "./resources/disec2.png";
+import ls1 from "./resources/ls1.png";
+import ls2 from "./resources/ls2.png";
 import logo_1 from "./resources/hehe.png";
 import logo_2 from "./resources/Group 34471.png";
 import logo_3 from "./resources/Group 34473.png";
@@ -253,117 +258,84 @@ const Mun = () => {
 
             <div className="comm_post_container">
 
-                <div className="flex flex-row flex-nowrap px-9 w-full align-center justify-center items-center h-[5vw]">
-                    <p className="mq350:text-[18px] font-raleway font-black mq520:text-xl text-2xl sm:text-3xl md:text-4xl mr-4 mq520:text-wrap text-nowrap" style={{ color: '#3245A9' }}>Join Our Commities </p>
-                    <hr className="w-full opacity-100 border-t-2 -translate-y-1" style={{ color: '#3245A9' }} />
-                </div>
-                <div className="comm_comp">
-                    <div className="left_box">
-                        <p className="comp_title cabi_font all_font cf1">Lok Sabha</p>
-                        <img src={lok_sabha} className="lok_sabha" alt="" />
-                    </div>
-                    <div className="right_box">
-                        <div className="center_box">
-                            <p className="mons_font comp_lorem all_font display_type">
-                            This committee is committed to promoting meaningful discussions and improving accessibility in our democratic process, with the ultimate goal of strengthening the Indian democratic system.
-                            </p>
-                            <h1 className="cabi_font head_lorem cf1 all_font">Election Evolution</h1>
-                            <p className="mons_font comp_lorem lower_para all_font display_type">
-                            The focal points of our dialogue will include addressing issues related to the Election Commission, examining the nuances of the anti-defection law, delving into the intricacies of delimitation, scrutinizing the impact of election freebies, and exploring the feasibility of implementing the concept of "one nation, one election." This committee will come together and engage in a dialogue that can bring about positive change and empower the voices of the people.
-                            </p>
-                            <p className="mobile_line f_size_12 roadmap_txt all_font mons_font">
-                                A Roadmap to Strengthening
-                                Democracy in India
-                            </p>
-                            <a onClick={showMore} className="see_more f_size_12 mobile_line see_txt all_font mons_font">
-                                See More
-                            </a>
-                        </div>
+<div className="flex flex-row flex-nowrap px-9 w-full align-center justify-center items-center h-[5vw]">
+    <p className="mq350:text-[18px] font-raleway font-black mq520:text-xl text-2xl sm:text-3xl md:text-4xl mr-4 mq520:text-wrap text-nowrap" style={{ color: '#051c46' }}>Join Our Commities </p>
+    <hr className="w-full opacity-100 border-t-2 -translate-y-1" style={{ color: '#3245A9' }} />
+</div>
+<div className="comm_comp">
+    <div className="left_box">
+        <p className="comp_title cabi_font all_font cf1" style={{ color: '#00a59e' }}>UNGA ECOFIN</p>
+        <img src={ecofin_pic} style={{ width: '16vw', height: '14vw' }}  alt="ecofin picture" />
+    </div>
+    <div className="right_box">
+        <div className="center_box">
+            <p className="mons_font comp_lorem all_font display_type">
+            This committee dedicates it's time to address the rising global income inequality inter and internationally.                            </p>
+            <h1 className="cabi_font head_lorem cf1 all_font" style={{ color: '#00a59e' }}>BRIDGING BARRIERS</h1>
+            <p className="mons_font comp_lorem lower_para all_font display_type">
+            While on the topic, the plenary also extends discussion on the topic of redistribution mechanisms, including UBI, CCTs and others as well. Simultaneously, the committee warrants discussion on the emerging poverty crisis, crafting pragmatic solutions for sustainable development.                            </p>
+            <p className="mobile_line f_size_12 roadmap_txt all_font mons_font">
+                {/* A Roadmap to Strengthening
+                Democracy in India */}
+            </p>
+            <a onClick={showMore} className="see_more f_size_12 mobile_line see_txt all_font mons_font">
+                See More
+            </a>
+        </div>
 
-                        <img src={img_1} className="img_1" alt="" />
-                        <img src={img_2} className="img_2" alt="" />
-                    </div>
-                </div>
-                <div className="comm_comp">
-                    <div className="left_box">
-                        <p className="comp_title_2 cabi_font all_font cf1 text-[#D87B38]">UNHRC</p>
-                        <img src={unhrc} className="league" alt="" />
-                    </div>
-                    <div className="right_box">
-                        <div className="center_box">
-                            <p className="mons_font comp_lorem all_font display_type">
-                            A Call to Action on the Human Cost of War.
-                            This committee is dedicated to highlighting the plight experienced by refugees and internally displaced individuals.
-                            </p>
-                            <h1 className="cabi_font head_lorem cf1 all_font text-[#D87B38] ">Beyond broken borders</h1>
-                            <p className="mons_font comp_lorem lower_para all_font display_type">
-                            We meticulously examine four major conflicts that have significantly impacted the world, leading to refugee crises. These encompass the appalling conditions suffered by the Rohingyas, the brutal ethnic cleansing in Nagorno-Karabakh, the adversities confronting Syrian refugees, and the hazardous journey northward embarked upon by Central American migrants in pursuit of a more promising life.
-                            </p>
-                            <p className="mobile_line f_size_12 roadmap_txt all_font mons_font">
-                            World Without borders
-                            </p>
-                            <a onClick={showMore3} className="see_more f_size_12 mobile_line see_txt all_font mons_font">
-                                See More
-                            </a>
-                        </div>
-                        <img src={mountain} className="img_1" alt="" />
-                        <img src={women} className="img_2" alt="" />
-                    </div>
-                </div>
-                <div className="comm_comp">
-                    <div className="left_box">
-                        <p className="comp_title_2 cabi_font all_font cf1">UNOC</p>
-                        <img src={unoc} className="league unoc_img" alt="" />
-                    </div>
-                    <div className="right_box">
-                        <div className="center_box">
-                            <p className="mons_font comp_lorem all_font display_type">
-                            This conference is set to delve into the intricate challenges posed by water pollution on a global scale. The committee will focus on the impact of water pollution on human health, the environment, and the economy, and will work towards formulating a comprehensive plan to address these issues.
-                            </p>
-                            <h1 className="cabi_font head_lorem cf1 all_font">Battles Below</h1>
-                            <p className="mons_font comp_lorem lower_para all_font display_type">
-                            Alongside this, the discussions will encompass the far-reaching consequences of armed conflicts on marine ecosystems, unraveling the complex relationship between warfare and aquatic life. Simultaneously, the committee aims to navigate the nuanced terrain of water conflicts, endeavoring to craft pragmatic strategies for sustainable resolutions.
-                            </p>
-                            <p className="mobile_line f_size_12 roadmap_txt all_font mons_font">
-                            Unifying efforts to cleanse our oceans 
-                            </p>
-                            <a onClick={showMore4} className="see_more f_size_12 mobile_line see_txt all_font mons_font">
-                                See More
-                            </a>
-                        </div>
-                        <img src={sealbase} className="img_1" alt="" />
-                        <img src={seal} className="img_2" alt="" />
-                    </div>
-                </div>
-                <div className="comm_comp">
-                    <div className="left_box">
-                        <p className="comp_title_2 cabi_font all_font cf2">League of Nations</p>
-                        <img src={league} className="league" alt="" />
-                    </div>
-                    <div className="right_box">
-                        <div className="center_box">
-                            <p className="mons_font comp_lorem all_font display_type">
-                            This conference is set to delve into the failures and shortcomings of the League of Nations, and the lessons that can be learned from its legacy. The League of Nations was the first worldwide intergovernmental organisation whose principal mission was to maintain world peace
-                            </p>
-                            <h1 className="cabi_font head_lorem cf2 all_font">Harmony Haven</h1>
-                            <p className="mons_font comp_lorem lower_para all_font display_type">
-                            This continuous crisis committee will keep the delegates on their toes as they brainstorm ways to ensure the League of Nations comes up with peaceful and beneficial solutions for a wide range of crises.The precursor to the modern United Nations, it created a template for the world to follow in the decades after its end. Understanding the
-                            failings of the League and the way the world improved upon the template it created, is key to understanding modern diplomacy.
+       
+        <img src={img_2} style={{ width: '20vw', height: '23vw',transform:'translateX(-6vw)' }} alt="" />
+    </div>
+</div>
+<div className="comm_comp">
+    <div className="left_box">
+        <p className="comp_title_2 cabi_font all_font cf1 text-[#D87B38]" style={{ color: '#051c46' }}>UNGA DISEC</p>
+        <img src={disec_pic} className="league" alt="" />
+    </div>
+    <div className="right_box">
+        <div className="center_box">
+            <p className="mons_font comp_lorem all_font display_type">
+            The committee focuses on reforming UN peacekeeping for greater effectiveness and accountability                            </p>
+            <h1 className="cabi_font head_lorem cf1 all_font text-[#D87B38] " style={{ color: '#051c46' }}>CONFLICT TO CONSENSUS</h1>
+            <p className="mons_font comp_lorem lower_para all_font display_type">
+            Addressing hybrid threats like cyber warfare and terrorism, and implementing DDR frameworks in post-conflict zones. Along with discussion on issues like regulating private military companies, preventing outer space weaponization, and lastly developing international guidelines for autonomous weapons and emerging military technologies.                            </p>
+            <p className="mobile_line f_size_12 roadmap_txt all_font mons_font">
+            World Without borders
+            </p>
+            <a onClick={showMore3} className="see_more f_size_12 mobile_line see_txt all_font mons_font">
+                See More
+            </a>
+        </div>
+        
+        <img src={globe} style={{ width: '20vw', height: '23vw',transform:'translateX(-12vw)' }} alt="" />
+    </div>
+</div>
+<div className="comm_comp">
+    <div className="left_box">
+        <p className="comp_title_2 cabi_font all_font cf1" style={{ color: '#662e93' }}>Lok Sabha</p>
+        <img src={ls1} style={{ width: '12vw', height: '14vw' }} alt="" />
+    </div>
+    <div className="right_box">
+        <div className="center_box">
+            <p className="mons_font comp_lorem all_font display_type">
+            The committee focuses on concerns about secularism in India, its historical roots, and related rules, regulations.and issues.                            </p>
+            <h1 className="cabi_font head_lorem cf1 all_font" style={{ color: '#662e93' }}>THE SECULAR DILEMMA</h1>
+            <p className="mons_font comp_lorem lower_para all_font display_type">
+            Alongside this, the discussions will encompass the far-reaching consequences of armed conflicts on marine ecosystems, unraveling the complex relationship between warfare and aquatic life. Simultaneously, the committee aims to navigate the nuanced terrain of water conflicts, endeavoring to craft pragmatic strategies for sustainable resolutions.
+            </p>
+            <p className="mobile_line f_size_12 roadmap_txt all_font mons_font">
+            Unifying efforts to cleanse our oceans 
+            </p>
+            <a onClick={showMore4} className="see_more f_size_12 mobile_line see_txt all_font mons_font">
+                See More
+            </a>
+        </div>
+        
+        <img src={ls2} style={{ width: '14vw', height: '20.5vw',transform:'translateX(-6vw) translateY(2.8vw)' }} alt="" />
+    </div>
+</div>
 
-                            </p>
-                            <p className="mobile_line f_size_12 roadmap_txt all_font mons_font">
-                            Reflecting on past missteps
-                            </p>
-                            <a onClick={showMore5} className="see_more f_size_12 mobile_line see_txt all_font mons_font">
-                                See More
-                            </a>
-                        </div>
-
-                        <img src={img_3} className="img_1" alt="" />
-                        <img src={img_4} className="img_2" alt="" />
-                    </div>
-                </div>
-            </div>
+</div>
             <div className="red_container">
                 <div className="divis">
                     <div className="text">
