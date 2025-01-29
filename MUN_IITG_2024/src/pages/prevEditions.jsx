@@ -1,4 +1,6 @@
 import Timeline from "../components/PrevEditions/timeline";
+import DonutDesign from "../components/PrevEditions/donut";
+// import PhotoEd from "../components/PrevEditions/Photoed";
 import Navbar from "../components/general/Navbar";
 import Footerm from "../components/general/Footerm";
 import PageHeader from "../components/general/pageHeader";
@@ -25,8 +27,10 @@ const PrevEditions = () => {
         <div className="overflow-x-hidden">
             <Mnavbar/>
           {!isMobileView && <Navbar />}
-            <PageHeader title={'Our Previous Editions'} color={'#FFE3BC'} subtitle={"IITGMUN down the memory lane"}/>
+            <PageHeader title={'Our Previous Editions'} color={'#FFE3BC'}/>
             <Timeline/>
+            {/* <DonutDesign/> */}
+            {/* <PhotoEd/> */}
             <Footerm/>
         </div>
      );
