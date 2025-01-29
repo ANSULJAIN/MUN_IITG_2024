@@ -8,7 +8,7 @@ const Timeline = () => {
     
     return (
         <div className='timeline'>
-            <img src="photoes/a.png" alt="MUN Editions" className="img1" ></img>
+            <img src="photoes/part.png" alt="MUN Editions" className="img1" ></img>
         </div>
     );
 };
