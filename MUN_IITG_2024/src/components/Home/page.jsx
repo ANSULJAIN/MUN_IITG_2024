@@ -38,9 +38,14 @@ import mountain from './resources/mouuntain.png'
 import seal from './resources/seal.png';
 import women from './resources/women.png';
 import sealbase from './resources/sealbase.png';
-import sponsor1 from './resources/sponsor1.png';
-import sponsor2 from './resources/sponsor2.png';
-import sponsor3 from './resources/sponsor3.png';
+import sponsor1 from './new_resources/news18 assam north east combined 1.png';
+// import sponsor1 from './new_resources/news18 assam north east combined 1.png';
+import sponsor2 from './new_resources/sp wall.png';
+import sponsor3 from './new_resources/spns33.png';
+import sponsor4 from './new_resources/tesmaco.png';
+import sponsor11 from './new_resources/dev remake 1.png';
+import sponsor12 from './new_resources/axis.png';
+import sponsor13 from './new_resources/group.png';
 import { useState, useEffect } from "react";
 import Footer from "../general/Footerm";
 import quotes_left from "./resources/quotes_left.png";
@@ -51,6 +56,7 @@ import home_logo from "./resources/Frame 72.png";
 import unhrc from "./resources/UNHRC.png";
 import unoc from "./resources/UNOC.png";
 import ccd from "./resources/ccd.jpg";
+
 import { Link } from "react-router-dom";
 
 const Mun = () => {
@@ -406,10 +412,20 @@ const Mun = () => {
                 <hr className="w-full opacity-100 border-t-2 -translate-y-1" style={{ color: '#3245A9' }} />
             </div>
             <div className="sponsor_logo">
+                <div></div>
+                <div className="sponsorone"><img src={sponsor11} alt="" className="s_logo1" /></div>
+                <div className="sponsortwo"><img src={sponsor12} alt="" className="s_logo2" /></div>
+                <div className="sponsorthree"><img src={sponsor13} alt="" className="s_logo1" /></div>
+                {/* <div><br /></div> */}
+                {/* <br /> */}
+                </div>
+                <p><br /></p>
+                <div className="sponsor_logo">
                 <div className="sponsorone"><img src={sponsor1} alt="" className="s_logo1" /></div>
                 <div className="sponsortwo"><img src={sponsor2} alt="" className="s_logo2" /></div>
                 <div className="sponsortwo"><img src={sponsor3} alt="" className="s_logo3" /></div>
-                <div className="sponsorthree"><img src={ccd} alt="" className="s_logo1" /></div>
+                {/* <div className="sponsortwo"><img src={sponsor4} alt="" className="s_logo4" /></div> */}
+                <div className="sponsorthree"><img src={sponsor4} alt="" className="s_logo1" /></div>
             </div>
 
             <Footer />
