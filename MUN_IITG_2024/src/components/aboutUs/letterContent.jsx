@@ -5,12 +5,12 @@ import secyImg from "../../assets/aboutUs/secy1.png";
 const LetterContent = () => {
   return (
     <>
-      <div className="relative min-w-none sm:w-[40vw] sm:min-w-[550px] max-w-[700px] h-contain min-h-740px bg-white mq400:px-4 px-8 py-10 mq400:text-[10px]  text-xs leading-5 text-[#3245A9] font-montserrat ml-[min(-300px,40vw)] mq950:mx-auto  ">
-        <p>Dear Delegates,</p>
+      <div style={{ color: "black" }} className="relative min-w-none sm:w-[40vw] sm:min-w-[550px] max-w-[700px] h-contain min-h-740px bg-white mq400:px-4 px-8 py-10 mq400:text-[10px]  text-xs leading-5 text-[#3245A9] font-montserrat ml-[min(-300px,40vw)] mq950:mx-auto  ">
+        <p style={{ color: "black" }}>Dear Delegates,</p>
         <br />
         {/* Body of letter */}
         <div className="body">
-          <p>
+          <p style={{ color: "black" }}>
             'Be yourself; everyone else is already taken', a timeless quote by
             Oscar Wilde, is something I have lived by and have truly experienced
             firsthand during my time at IITGMUN. Just as being authentic is the

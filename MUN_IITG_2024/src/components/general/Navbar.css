@@ -1,35 +1,33 @@
-
-
-
 .unactive{
-    color: black;
+  color: black;
 }
 
 .active{
-  background-color: blue;
-  overflow: hidden;
-  color: white;
+background-color: #9F1414;
+overflow: hidden;
+/* color: white; */
 }
 
 .deactive{
-  background-color: white;
+background-color: transparent;
 }
 .munlogos{
-  z-index: 100;
-  position: fixed;
-  padding-top: 0;
-  height: 9vw;
-  margin-top: 0.5vw;
+z-index: 100;
+position: fixed;
+padding-top: 0;
+height: 4.5vw;
+margin-top: 1vw;
+/* margin-left: 1vw; */
 background-color: transparent;
 margin-left: 1vw;
 }
 
 
 .alcherlogo{
-  margin-top: 0.1vw;
-  z-index:100;
-  position: fixed;
-  right: 0.4vw;
+margin-top: 1vw;
+z-index:100;
+position: fixed;
+right: 0.4vw;
 }
 
 /* import Navbar from './Navbar'
@@ -38,120 +36,120 @@ import { useNavigate,Link } from "react-router-dom";
 
 
 const GreenPurpleFrame = () => {
-  
-    return (
 
-      <div className=" h-[1024px] relative bg-white overflow-hidden tracking-[normal] text-left text-[34.2px] text-white font-montserrat justify-center items-center">
-        <div className="absolute top-[0px] left-[361px] bg-mediumaquamarine col-span-4 h-[987px]" />
-        <div className="absolute top-[0px] left-[722px] bg-lightsteelblue col-span-4 h-[987px]" />
-        <div className="absolute top-[329px] left-[1006.5px] w-[370.3px] h-[645.7px] z-[1] flex items-center justify-center">
+  return (
+
+    <div className=" h-[1024px] relative bg-white overflow-hidden tracking-[normal] text-left text-[34.2px] text-white font-montserrat justify-center items-center">
+      <div className="absolute top-[0px] left-[361px] bg-mediumaquamarine col-span-4 h-[987px]" />
+      <div className="absolute top-[0px] left-[722px] bg-lightsteelblue col-span-4 h-[987px]" />
+      <div className="absolute top-[329px] left-[1006.5px] w-[370.3px] h-[645.7px] z-[1] flex items-center justify-center">
+        <img
+          className="w-full h-full z-[1] object-contain absolute left-[0px] top-[0px] [transform:scale(1.24)]"
+          loading="eager"
+          alt=""
+          src="/man.svg"
+        />
+      </div>
+      <div className="absolute top-[385px] left-[90px] w-[537px] h-[700px]">
+        <div className="absolute top-[-0.4px] left-[0.3px] w-[308.8px] h-[610.5px] z-[1] flex items-center justify-center">
           <img
-            className="w-full h-full z-[1] object-contain absolute left-[0px] top-[0px] [transform:scale(1.24)]"
-            loading="eager"
+            className="w-full h-full z-[1] object-contain absolute left-[0px] top-[0px] [transform:scale(1.288)]"
             alt=""
-            src="/man.svg"
+            src="/woman.svg"
           />
         </div>
-        <div className="absolute top-[385px] left-[90px] w-[537px] h-[700px]">
-          <div className="absolute top-[-0.4px] left-[0.3px] w-[308.8px] h-[610.5px] z-[1] flex items-center justify-center">
-            <img
-              className="w-full h-full z-[1] object-contain absolute left-[0px] top-[0px] [transform:scale(1.288)]"
-              alt=""
-              src="/woman.svg"
-            />
-          </div>
-          <div className="absolute top-[98.6px] left-[233.5px] w-[303.5px] h-[600.5px] z-[3] flex items-center justify-center">
-            <img
-              className="w-full h-full z-[3] object-contain absolute left-[0px] top-[0px] [transform:scale(1.293)]"
-              alt=""
-              src="/hand.svg"
-            />
-          </div>
+        <div className="absolute top-[98.6px] left-[233.5px] w-[303.5px] h-[600.5px] z-[3] flex items-center justify-center">
+          <img
+            className="w-full h-full z-[3] object-contain absolute left-[0px] top-[0px] [transform:scale(1.293)]"
+            alt=""
+            src="/hand.svg"
+          />
         </div>
-        <div className="absolute top-[484px] left-[479px] w-[769px] flex flex-row items-start justify-start py-[21px] px-[50px] box-border min-h-[555px] max-w-full">
-          <div className="h-full w-full absolute my-0 mx-[!important] top-[0.3px] right-[-0.8px] bottom-[-0.7px] left-[0.4px] z-[2] flex items-center justify-center">
-            <img
-              className="h-full w-full max-w-full overflow-hidden max-h-full z-[2] object-contain absolute left-[0px] top-[0px] [transform:scale(1.16)]"
-              alt=""
-              src="/seal.svg"
-            />
+      </div>
+      <div className="absolute top-[484px] left-[479px] w-[769px] flex flex-row items-start justify-start py-[21px] px-[50px] box-border min-h-[555px] max-w-full">
+        <div className="h-full w-full absolute my-0 mx-[!important] top-[0.3px] right-[-0.8px] bottom-[-0.7px] left-[0.4px] z-[2] flex items-center justify-center">
+          <img
+            className="h-full w-full max-w-full overflow-hidden max-h-full z-[2] object-contain absolute left-[0px] top-[0px] [transform:scale(1.16)]"
+            alt=""
+            src="/seal.svg"
+          />
+        </div>
+        <div className="h-6 w-[382px] relative leading-[150%] font-semibold inline-block [text-shadow:0px_0px_53.34px_rgba(0,_0,_0,_0.36)] max-w-full z-[4] mq450:text-[21px] mq450:leading-[31px] mq750:text-[27px] mq750:leading-[41px]">
+          8th - 10th March 2024
+        </div>
+      </div>
+      <div className="absolute top-[418.6px] left-[530px] text-[67.5px] leading-[100%] font-semibold [text-shadow:0px_0px_53.34px_rgba(0,_0,_0,_0.1)] z-[1] mq450:text-[40px] mq450:leading-[40px] mq750:text-[54px] mq750:leading-[54px]">
+        Edition XVI
+      </div>
+      <div className="absolute top-[186px] left-[530px] text-[96.9px] tracking-[-0.01em] leading-[100%] font-black font-cabinet-grotesk [text-shadow:0px_0px_53.34px_rgba(0,_0,_0,_0.1)] z-[1] mq450:text-[29px] mq450:leading-[39px] mq750:text-[48px] mq750:leading-[58px]">
+        IITGMUN
+      </div>
+      <div className="absolute top-[267.1px] left-[530px] text-[151.1px] tracking-[-0.01em] leading-[100%] font-black font-cabinet-grotesk [text-shadow:0px_0px_53.34px_rgba(0,_0,_0,_0.1)] z-[1] mq450:text-[38px] mq450:leading-[60px] mq750:text-[60px] mq750:leading-[91px]">
+        2024
+      </div>
+      <main className="absolute top-[962px] left-[0px] bg-white w-full overflow-hidden flex flex-col items-center justify-start pt-[276px] px-5 pb-[552px] box-border gap-[47px] h-full max-w-full z-[4] text-center text-[32px] text-darkslateblue font-montserrat mq675:gap-[47px]">
+        <h2 className="m-0 w-[1028px] h-[22px] relative text-inherit leading-[49.76px] font-light font-inherit inline-block max-w-full mq450:text-[19px] mq450:leading-[30px] mq750:text-[26px] mq750:leading-[40px]">
+          "That the powerful play goes on, and you may contribute a verse."
+        </h2>
+        <h1 className="m-0 w-[701px] h-[35px] relative text-[52px] leading-[91.33px] font-black font-cabinet-grotesk inline-block max-w-full mq450:text-[31px] mq450:leading-[55px] mq750:text-[42px] mq750:leading-[73px]">
+          “ What verse shall be yours? ”
+        </h1>
+        <div className="w-[276px] flex flex-col items-center justify-start gap-[16px] text-xl">
+          <div className="self-stretch h-3.5 relative leading-[31.61px] font-light inline-block mq450:text-base mq450:leading-[25px]">
+            O me! O life!, Walt Whitman
           </div>
-          <div className="h-6 w-[382px] relative leading-[150%] font-semibold inline-block [text-shadow:0px_0px_53.34px_rgba(0,_0,_0,_0.36)] max-w-full z-[4] mq450:text-[21px] mq450:leading-[31px] mq750:text-[27px] mq750:leading-[41px]">
-            8th - 10th March 2024
-          </div>
-        </div>
-        <div className="absolute top-[418.6px] left-[530px] text-[67.5px] leading-[100%] font-semibold [text-shadow:0px_0px_53.34px_rgba(0,_0,_0,_0.1)] z-[1] mq450:text-[40px] mq450:leading-[40px] mq750:text-[54px] mq750:leading-[54px]">
-          Edition XVI
-        </div>
-        <div className="absolute top-[186px] left-[530px] text-[96.9px] tracking-[-0.01em] leading-[100%] font-black font-cabinet-grotesk [text-shadow:0px_0px_53.34px_rgba(0,_0,_0,_0.1)] z-[1] mq450:text-[29px] mq450:leading-[39px] mq750:text-[48px] mq750:leading-[58px]">
-          IITGMUN
-        </div>
-        <div className="absolute top-[267.1px] left-[530px] text-[151.1px] tracking-[-0.01em] leading-[100%] font-black font-cabinet-grotesk [text-shadow:0px_0px_53.34px_rgba(0,_0,_0,_0.1)] z-[1] mq450:text-[38px] mq450:leading-[60px] mq750:text-[60px] mq750:leading-[91px]">
-          2024
-        </div>
-        <main className="absolute top-[962px] left-[0px] bg-white w-full overflow-hidden flex flex-col items-center justify-start pt-[276px] px-5 pb-[552px] box-border gap-[47px] h-full max-w-full z-[4] text-center text-[32px] text-darkslateblue font-montserrat mq675:gap-[47px]">
-          <h2 className="m-0 w-[1028px] h-[22px] relative text-inherit leading-[49.76px] font-light font-inherit inline-block max-w-full mq450:text-[19px] mq450:leading-[30px] mq750:text-[26px] mq750:leading-[40px]">
-            "That the powerful play goes on, and you may contribute a verse."
-          </h2>
-          <h1 className="m-0 w-[701px] h-[35px] relative text-[52px] leading-[91.33px] font-black font-cabinet-grotesk inline-block max-w-full mq450:text-[31px] mq450:leading-[55px] mq750:text-[42px] mq750:leading-[73px]">
-            “ What verse shall be yours? ”
-          </h1>
-          <div className="w-[276px] flex flex-col items-center justify-start gap-[16px] text-xl">
-            <div className="self-stretch h-3.5 relative leading-[31.61px] font-light inline-block mq450:text-base mq450:leading-[25px]">
-              O me! O life!, Walt Whitman
-            </div>
-            <div className="w-[188px] h-3.5 relative leading-[31.61px] font-light inline-block mq450:text-base mq450:leading-[25px]">
-              Dead Poets society
-            </div>
-          </div>
-        </main>
-        <div className="absolute top-[0px] left-[0px] bg-khaki col-span-4 h-[988px] flex flex-row items-start justify-start py-6 px-[26px] box-border max-w-full">
-          <div className="h-[987px] w-[361px] relative bg-khaki hidden max-w-full" />
-          <div className="h-[53.7px] w-[65.7px] relative z-[1] flex items-center justify-center">
-            <img
-              className="h-full w-full z-[1] object-contain absolute left-[0px] top-[4px] [transform:scale(2.49)]"
-              loading="eager"
-              alt=""
-              src="/mun.svg"
-            />
+          <div className="w-[188px] h-3.5 relative leading-[31.61px] font-light inline-block mq450:text-base mq450:leading-[25px]">
+            Dead Poets society
           </div>
         </div>
-        <div className="absolute top-[0px] left-[1083px] bg-crimson col-span-4 h-[987px] flex flex-row items-start justify-end py-[25px] px-[30px] box-border max-w-full">
-          <div className="h-[987px] w-[361px] relative bg-crimson hidden max-w-full" />
-          <div className="h-[52px] w-[45.2px] relative z-[1] flex items-center justify-center">
-            <img
-              className="h-full w-full z-[10] object-contain absolute right-[0px] top-[4px] [transform:scale(2.77)]"
-              loading="eager"
-              alt=""
-              src="/alcher.svg"
-            />
-          </div>
+      </main>
+      <div className="absolute top-[0px] left-[0px] bg-khaki col-span-4 h-[988px] flex flex-row items-start justify-start py-6 px-[26px] box-border max-w-full">
+        <div className="h-[987px] w-[361px] relative bg-khaki hidden max-w-full" />
+        <div className="h-[53.7px] w-[65.7px] relative z-[1] flex items-center justify-center">
+          <img
+            className="h-full w-full z-[1] object-contain absolute left-[0px] top-[4px] [transform:scale(2.49)]"
+            loading="eager"
+            alt=""
+            src="/mun.svg"
+          />
         </div>
-        <div className="absolute top-[27px] left-[420px] w-[600px] flex flex-row items-center justify-start max-w-full z-[1] mq675:w-0">
-          {/* <nav className="m-0 w-[600px] rounded-full bg-white shadow-[0px_4px_40px_rgba(0,_0,_0,_0.2)] flex flex-row items-start justify-between p-[17px] box-border gap-[20px] max-w-full text-center text-xl text-darkslateblue font-montserrat mq675:hidden">
-           
-            <div className="relative leading-[14px] font-medium">Home</div>
+      </div>
+      <div className="absolute top-[0px] left-[1083px] bg-crimson col-span-4 h-[987px] flex flex-row items-start justify-end py-[25px] px-[30px] box-border max-w-full">
+        <div className="h-[987px] w-[361px] relative bg-crimson hidden max-w-full" />
+        <div className="h-[52px] w-[45.2px] relative z-[1] flex items-center justify-center">
+          <img
+            className="h-full w-full z-[10] object-contain absolute right-[0px] top-[4px] [transform:scale(2.77)]"
+            loading="eager"
+            alt=""
+            src="/alcher.svg"
+          />
+        </div>
+      </div>
+      <div className="absolute top-[27px] left-[420px] w-[600px] flex flex-row items-center justify-start max-w-full z-[1] mq675:w-0">
+        {/* <nav className="m-0 w-[600px] rounded-full bg-white shadow-[0px_4px_40px_rgba(0,_0,_0,_0.2)] flex flex-row items-start justify-between p-[17px] box-border gap-[20px] max-w-full text-center text-xl text-darkslateblue font-montserrat mq675:hidden">
          
-            <div  className="relative leading-[14px] font-medium whitespace-nowrap">
-              About us
-            </div>
+          <div className="relative leading-[14px] font-medium">Home</div>
+       
+          <div  className="relative leading-[14px] font-medium whitespace-nowrap">
+            About us
+          </div>
+          
+          <div className="relative leading-[14px] font-medium whitespace-nowrap">
+            Previous editions
+          </div >
+          <div className="relative leading-[14px] font-medium whitespace-nowrap">
+            Contact us
+          </div>
+        /* </nav> */
+        /* <Navbar/>
+        <div className="cursor-pointer [border:none] p-3 bg-darkslateblue rounded-[7px] shadow-[0px_4px_40px_rgba(189,_189,_189,_0.4)] flex flex-row items-center justify-center z-[1] ml-[-595px] hover:bg-royalblue">
+          <div className="relative text-xl leading-[14px] font-medium font-montserrat text-white text-center">
             
-            <div className="relative leading-[14px] font-medium whitespace-nowrap">
-              Previous editions
-            </div >
-            <div className="relative leading-[14px] font-medium whitespace-nowrap">
-              Contact us
-            </div>
-          /* </nav> */
-          /* <Navbar/>
-          <div className="cursor-pointer [border:none] p-3 bg-darkslateblue rounded-[7px] shadow-[0px_4px_40px_rgba(189,_189,_189,_0.4)] flex flex-row items-center justify-center z-[1] ml-[-595px] hover:bg-royalblue">
-            <div className="relative text-xl leading-[14px] font-medium font-montserrat text-white text-center">
-              
-            </div>
           </div>
         </div>
       </div>
-    );
-  };
-  
-  export default GreenPurpleFrame; */ 
+    </div>
+  );
+};
+
+export default GreenPurpleFrame; */
