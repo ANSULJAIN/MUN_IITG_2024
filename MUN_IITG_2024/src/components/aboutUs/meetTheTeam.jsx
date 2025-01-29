@@ -17,27 +17,27 @@ import SectionHeading from "../general/sectionHeading";
 const MeetTheTeam = () => {
   const team = [
     [
-      "Samarth Jhunjhunwala",
-      "Secretary General",
+      "Thanmai Sai Krishna",
+      "Chief of Staff",
       {
-        linkedin: "https://www.linkedin.com/in/samarth-jhunjhunwala/",
+        linkedin: "https://www.linkedin.com/in/thanmai-sai-krishnan-mudavath-b9974524a/",
         instagram: "https://www.instagram.com/",
       },
       samarth,
     ],
     [
-      "Pratham Garg",
+      "Ashutosh Balasubramaniam",
       "Director General",
       {
-        linkedin: "https://www.linkedin.com/in/pratham-garg2728/",
+        linkedin: "https://www.linkedin.com/in/ashutosh-balasubramaniam-03106a258/",
         instagram:
           "https://www.instagram.com/prathamm2728?igsh=MWFwZ3RxMmYyd2kyMQ==",
       },
       pratham,
     ],
     [
-      "Vedika Garg",
-      "Director of International Press",
+      "Ansul Jain",
+      "Director WebOps",
       {
         linkedin: "https://www.linkedin.com/in/vedikag/",
         instagram:
@@ -107,20 +107,20 @@ const MeetTheTeam = () => {
 
   const team2 = [
     [
-      "Adithyan Sunilkumar",
-      "Director of Design",
+      "Yoshita Banerjee",
+      "Secretary General",
       {
-        linkedin: "http://www.linkedin.com/in/adi-sunilkumar",
+        linkedin: "https://www.linkedin.com/in/yoshita-banerjee-baaa6724b?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAD3qQ_IBlECwzPGUhB5yn6bgqlSXv1ggUQk&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3B4C0g5oCATLSRtbFUEttqrQ%3D%3D",
         instagram:
           "https://www.instagram.com/adithyansunilk?igsh=OXR6NnRrbWVmeTU3",
       },
       adityan,
     ],
     [
-      "Ketan Singh",
-      "Director Webops",
+      "Divya Mate",
+      "Director General",
       {
-        linkedin: "https://www.linkedin.com/in/ketan-singh-iitg/",
+        linkedin: "https://www.linkedin.com/in/divya-mate-1394152b5?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAEuzs30BqRsZeKrNp0etMSSdyFx_UHOTmwk&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BSQybnHcCR8au5NnWioaNaQ%3D%3D",
         instagram: "https://www.instagram.com/botketan?igsh=M3F3NGlpMWprb3k4",
       },
       ketan,

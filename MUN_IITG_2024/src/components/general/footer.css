@@ -1,5 +1,9 @@
+p {
+    color: white;
+}
+
 .container-main2{
-   background-color:#FFEBEE;
+   background-color:#051C46;
     display: flex;
     flex-direction:column;
     justify-content: center;
