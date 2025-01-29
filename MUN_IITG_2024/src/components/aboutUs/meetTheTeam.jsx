@@ -20,7 +20,7 @@ const MeetTheTeam = () => {
       "Chief of Staff",
       {
         linkedin: "https://www.linkedin.com/in/thanmai-sai-krishnan-mudavath-b9974524a/",
-        instagram: "https://www.instagram.com/",
+        instagram: "https://www.instagram.com/krish.2.2.05/",
       },
       samarth,
     ],
@@ -29,7 +29,7 @@ const MeetTheTeam = () => {
       "Director General",
       {
         linkedin: "https://www.linkedin.com/in/ashutosh-balasubramaniam-03106a258/",
-        instagram: "https://www.instagram.com/prathamm2728?igsh=MWFwZ3RxMmYyd2kyMQ==",
+        instagram: "https://www.instagram.com/ashutoshbala_/",
       },
       pratham,
     ],
@@ -38,7 +38,7 @@ const MeetTheTeam = () => {
       "Director WebOps",
       {
         linkedin: "https://www.linkedin.com/in/vedikag/",
-        instagram: "https://www.instagram.com/confusion.o_o?igsh=eG1zcno3bjhpeTBx",
+        instagram: "https://www.instagram.com/ansuljain2003/",
       },
       vedika,
     ],
@@ -47,7 +47,7 @@ const MeetTheTeam = () => {
       "Director of Public Relations and Outreach",
       {
         linkedin: "https://www.linkedin.com/in/ayush-kumar-235344254",
-        instagram: "https://www.instagram.com/kaus_theta_/?utm_source=qr&r=nametag",
+        instagram: "https://www.instagram.com/electricbreeze2004/",
       },
       kausth,
     ],
@@ -65,7 +65,7 @@ const MeetTheTeam = () => {
       "Director Delegate Affairs",
       {
         linkedin: "https://www.linkedin.com/in/aarohan-gupta/",
-        instagram: "https://www.instagram.com/rishit718?igsh=dGRweDBvdzFxb3lm",
+        instagram: "https://www.instagram.com/aarohan_gupta/",
       },
       Rishith2,
     ],
@@ -74,7 +74,7 @@ const MeetTheTeam = () => {
       "Director Marketing",
       {
         linkedin: "https://www.linkedin.com/in/rayansh-khamesra/",
-        instagram: "https://www.instagram.com/rishit718?igsh=dGRweDBvdzFxb3lm",
+        instagram: "https://www.instagram.com/rayansh_khamesra",
       },
       Rishith3,
     ],
@@ -83,7 +83,7 @@ const MeetTheTeam = () => {
       "Director of Creative Content",
       {
         linkedin: "https://www.linkedin.com/in/amanprashant/",
-        instagram: "https://www.instagram.com/advait_aa?igsh=MXd2OHp2ZjY5cnl0dw==",
+        instagram: "https://www.instagram.com/aman_gahukar31/",
       },
       advait,
     ],
@@ -92,7 +92,7 @@ const MeetTheTeam = () => {
       "Director Logistics",
       {
         linkedin: "https://www.linkedin.com/in/harishankar-yadav-7386a1280/",
-        instagram: "https://www.instagram.com/abdul_bk__?igsh=MXFtYXlia2I1bXRt",
+        instagram: "https://www.instagram.com/harishankarhere/",
       },
       basith,
     ],
@@ -104,7 +104,7 @@ const MeetTheTeam = () => {
       "Secretary General",
       {
         linkedin: "https://www.linkedin.com/in/yoshita-banerjee-baaa6724b",
-        instagram: "https://www.instagram.com/adithyansunilk?igsh=OXR6NnRrbWVmeTU3",
+        instagram: "https://www.instagram.com/yoshitabanerjee_/",
       },
       adityan,
     ],
@@ -113,7 +113,7 @@ const MeetTheTeam = () => {
       "Director General",
       {
         linkedin: "https://www.linkedin.com/in/divya-mate-1394152b5",
-        instagram: "https://www.instagram.com/botketan?igsh=M3F3NGlpMWprb3k4",
+        instagram: "https://www.instagram.com/divya.__.123/",
       },
       ketan,
     ],
