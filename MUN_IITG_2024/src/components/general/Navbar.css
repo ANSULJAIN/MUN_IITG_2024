@@ -6,9 +6,9 @@
 }
 
 .active{
-  background-color: blue;
+  background-color: #9F1414;
   overflow: hidden;
-  color: white;
+  /* color: white; */
 }
 
 .deactive{
@@ -18,15 +18,16 @@
   z-index: 100;
   position: fixed;
   padding-top: 0;
-  height: 9vw;
-  margin-top: 0.5vw;
+  height: 4.5vw;
+  margin-top: 1vw;
+  /* margin-left: 1vw; */
 background-color: transparent;
 margin-left: 1vw;
 }
 
 
 .alcherlogo{
-  margin-top: 0.1vw;
+  margin-top: 1vw;
   z-index:100;
   position: fixed;
   right: 0.4vw;

@@ -2,8 +2,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // import { Button } from "react-bootstrap";
 // import { useState } from 'react';
 import './Navbar.css'
-import mun from './MUNsvg.svg'
-import alcher from './ALCHERsvg.svg'
+import mun from './Group 63.svg'
+import alcher from './Mask group.svg'
 //  export default function Navbar (){
 
 //   const [activeItem ,setActiveItem] = useState('home');

@@ -16,7 +16,7 @@ export default function Footer() {
 
             </div>
             <p>Designed by Sandeep</p>
-            <p>Developed by Aadi, Purab and Kavya</p>
+            <p>Developed by Kavya Agrawal, Aadi Poddar and Purab Agarwal</p>
             <p>
                 Conference Hall, IIT Guwahati
             </p>

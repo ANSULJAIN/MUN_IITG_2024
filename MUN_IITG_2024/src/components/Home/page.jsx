@@ -379,7 +379,7 @@ const Mun = () => {
                                     <Carousel.Item key={index} className="w-100 h-70">
 
                                         <div className="review_card_cat_1">
-                                            <img src={data.image} className="rectangle" alt="" />
+                                            {/* <img src={data.image} className="rectangle t-3" alt="" /> */}
                                             <img src={data.profileImage} className="male_profile" alt="" />
                                             <div className="bio_heading">
                                                 <h2 className="mons_font cf2 review_f_size all_font">{data.title}</h2>
