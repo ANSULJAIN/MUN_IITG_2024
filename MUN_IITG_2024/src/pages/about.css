@@ -1,0 +1,56 @@
+.about-top {
+    background-color: #ffe3bc;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header-logo {
+    margin: 8% 0 2% 0;
+  }
+  
+  .about1 {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about1-text {
+    color: #9f1414;
+    margin: 5% 10% 5% 10%;
+    font-size: 16px;
+    line-height: 35px;
+  }
+  
+  .about2 {
+    background-color: #9f1414;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about2-text {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+  }
+  
+  .about2-h1 {
+    color: white;
+    font-size: 40px;
+  }
+  
+  .about2-p {
+    color: white;
+    font-size: 16px;
+    line-height: 35px;
+  }
+  
+  .about-logo {
+    width: 200%;
+    margin: 5%;
+  }
+  
+  .about-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
