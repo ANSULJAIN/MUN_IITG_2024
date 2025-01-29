@@ -13,7 +13,7 @@ import disec_pic from "./resources/disec1.png"
 import globe from "./resources/disec2.png";
 import ls1 from "./resources/ls1.png";
 import ls2 from "./resources/ls2.png";
-import logo_1 from "./resources/hehe.png";
+import logo_1 from "./resources/gay.png";
 import logo_2 from "./resources/Group 34471.png";
 import logo_3 from "./resources/Group 34473.png";
 import logo_4 from "./resources/Wilson.png";
