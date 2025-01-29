@@ -17,8 +17,13 @@ import SectionHeading from "../general/sectionHeading";
 const MeetTheTeam = () => {
   const team = [
     [
+<<<<<<< HEAD
       "Thanmai Sai Krishna",
       "Chief of Staff",
+=======
+      "Yoshita Banerjee",
+      "Secretary General",
+>>>>>>> a18978d1ff1c6546a24fef47589f75e090b99a52
       {
         linkedin: "https://www.linkedin.com/in/thanmai-sai-krishnan-mudavath-b9974524a/",
         instagram: "https://www.instagram.com/",
@@ -117,8 +122,13 @@ const MeetTheTeam = () => {
       adityan,
     ],
     [
+<<<<<<< HEAD
       "Divya Mate",
       "Director General",
+=======
+      "K",
+      "Director Webops",
+>>>>>>> a18978d1ff1c6546a24fef47589f75e090b99a52
       {
         linkedin: "https://www.linkedin.com/in/divya-mate-1394152b5?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAEuzs30BqRsZeKrNp0etMSSdyFx_UHOTmwk&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BSQybnHcCR8au5NnWioaNaQ%3D%3D",
         instagram: "https://www.instagram.com/botketan?igsh=M3F3NGlpMWprb3k4",
