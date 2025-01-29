@@ -17,7 +17,7 @@ import SectionHeading from "../general/sectionHeading";
 const MeetTheTeam = () => {
   const team = [
     [
-      "Samarth Jhunjhunwala",
+      "Yoshita Banerjee",
       "Secretary General",
       {
         linkedin: "https://www.linkedin.com/in/samarth-jhunjhunwala/",
@@ -107,8 +107,8 @@ const MeetTheTeam = () => {
 
   const team2 = [
     [
-      "Adithyan Sunilkumar",
-      "Director of Design",
+      "Yoshita Banerjee",
+      "Secretary General",
       {
         linkedin: "http://www.linkedin.com/in/adi-sunilkumar",
         instagram:
@@ -117,7 +117,7 @@ const MeetTheTeam = () => {
       adityan,
     ],
     [
-      "Ketan Singh",
+      "K",
       "Director Webops",
       {
         linkedin: "https://www.linkedin.com/in/ketan-singh-iitg/",
