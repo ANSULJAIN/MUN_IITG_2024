@@ -26,7 +26,7 @@ const AboutUs = () => {
     <div className="w-full">
       <Mnavbar/>
           {!isMobileView && <Navbar />}
-      <PageHeader title={"About Us"} color={"#A0EDC9"} />
+      <PageHeader title={"About Us"} color={"#FFE3BC"} />
       <div className="w-full flex relative flex-col items-center">
         <p className="lg:my-[11.6vh] py-5 px-[min(15.3vw,30px)] text-center w-[max(300px,80vw)] text-lg font-light md:text-base lg:font-extralight leading-[30px] text-[#192463] font-montserrat">
           The MUN, or the Model United Nations, is a simulation of the actual

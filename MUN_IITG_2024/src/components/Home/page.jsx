@@ -13,7 +13,7 @@ import disec_pic from "./resources/disec1.png"
 import globe from "./resources/disec2.png";
 import ls1 from "./resources/ls1.png";
 import ls2 from "./resources/ls2.png";
-import logo_1 from "./resources/gay.png";
+import logo_1 from "./resources/g.png";
 import logo_2 from "./resources/Group 34471.png";
 import logo_3 from "./resources/Group 34473.png";
 import logo_4 from "./resources/Wilson.png";
@@ -41,7 +41,7 @@ import sealbase from './resources/sealbase.png';
 import sponsor1 from './new_resources/news18 assam north east combined 1.png';
 // import sponsor1 from './new_resources/news18 assam north east combined 1.png';
 import sponsor2 from './new_resources/sp wall.png';
-import sponsor3 from './new_resources/spns33.png';
+import sponsor3 from './new_resources/spns33new.png';
 import sponsor4 from './new_resources/tesmaco.png';
 import sponsor11 from './new_resources/dev remake 1.png';
 import sponsor12 from './new_resources/axis.png';
@@ -275,11 +275,11 @@ const Mun = () => {
     </div>
     <div className="right_box">
         <div className="center_box">
-            <p className="mons_font comp_lorem all_font display_type">
+            <p className="mons_font comp_lorem all_font display_type" style={{ color: "black" }}>
             This committee dedicates it's time to address the rising global income inequality inter and internationally.                            </p>
             <h1 className="cabi_font head_lorem cf1 all_font" style={{ color: '#00a59e' }}>BRIDGING BARRIERS</h1>
-            <p className="mons_font comp_lorem lower_para all_font display_type">
-            While on the topic, the plenary also extends discussion on the topic of redistribution mechanisms, including UBI, CCTs and others as well. Simultaneously, the committee warrants discussion on the emerging poverty crisis, crafting pragmatic solutions for sustainable development.                            </p>
+            <p className="mons_font comp_lorem lower_para all_font display_type" style={{ color: "black" }}>
+            While on the topic, the plenary also extends discussion on the topic of redistribution mechanisms, including UBI, CCTs and others as well. Simultaneously, the committee warrants discussion on the emerging poverty crisis, crafting pragmatic solutions for sustainable development.                        </p>
             <p className="mobile_line f_size_12 roadmap_txt all_font mons_font">
                 {/* A Roadmap to Strengthening
                 Democracy in India */}
@@ -300,12 +300,12 @@ const Mun = () => {
     </div>
     <div className="right_box">
         <div className="center_box">
-            <p className="mons_font comp_lorem all_font display_type">
+            <p className="mons_font comp_lorem all_font display_type" style={{ color: "black" }}>
             The committee focuses on reforming UN peacekeeping for greater effectiveness and accountability                            </p>
             <h1 className="cabi_font head_lorem cf1 all_font text-[#D87B38] " style={{ color: '#051c46' }}>CONFLICT TO CONSENSUS</h1>
-            <p className="mons_font comp_lorem lower_para all_font display_type">
-            Addressing hybrid threats like cyber warfare and terrorism, and implementing DDR frameworks in post-conflict zones. Along with discussion on issues like regulating private military companies, preventing outer space weaponization, and lastly developing international guidelines for autonomous weapons and emerging military technologies.                            </p>
-            <p className="mobile_line f_size_12 roadmap_txt all_font mons_font">
+            <p className="mons_font comp_lorem lower_para all_font display_type" style={{ color: "black" }}>
+            Addressing hybrid threats like cyber warfare and terrorism, and implementing DDR frameworks in post-conflict zones. Along with discussion on issues like regulating private military companies, preventing outer space weaponization, and lastly developing international guidelines for autonomous weapons and emerging military technologies.                             </p>
+            <p className="mobile_line f_size_12 roadmap_txt all_font mons_font" style={{ color: "black" }}>
             World Without borders
             </p>
             <a onClick={showMore3} className="see_more f_size_12 mobile_line see_txt all_font mons_font">
@@ -323,13 +323,12 @@ const Mun = () => {
     </div>
     <div className="right_box">
         <div className="center_box">
-            <p className="mons_font comp_lorem all_font display_type">
+            <p className="mons_font comp_lorem all_font display_type" style={{ color: "black" }}>
             The committee focuses on concerns about secularism in India, its historical roots, and related rules, regulations.and issues.                            </p>
             <h1 className="cabi_font head_lorem cf1 all_font" style={{ color: '#662e93' }}>THE SECULAR DILEMMA</h1>
-            <p className="mons_font comp_lorem lower_para all_font display_type">
-            Alongside this, the discussions will encompass the far-reaching consequences of armed conflicts on marine ecosystems, unraveling the complex relationship between warfare and aquatic life. Simultaneously, the committee aims to navigate the nuanced terrain of water conflicts, endeavoring to craft pragmatic strategies for sustainable resolutions.
-            </p>
-            <p className="mobile_line f_size_12 roadmap_txt all_font mons_font">
+            <p className="mons_font comp_lorem lower_para all_font display_type" style={{ color: "black" }}>
+            The committee will delve into the concept of secularism in India, analyzing its historical evolution and its connection to the partition of India. It will also address related issues such as the Uniform Civil Code and anti-conversion laws. Additionally, the committee will shed light on ongoing debates and issues such as the Places of Worship Act ,The Madrasa Act etc.             </p>
+            <p className="mobile_line f_size_12 roadmap_txt all_font mons_font" style={{ color: "black" }}>
             Unifying efforts to cleanse our oceans 
             </p>
             <a onClick={showMore4} className="see_more f_size_12 mobile_line see_txt all_font mons_font">
