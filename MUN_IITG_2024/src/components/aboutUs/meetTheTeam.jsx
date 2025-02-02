@@ -26,7 +26,7 @@ const MeetTheTeam = () => {
     ],
     [
       "Ashutosh Balasubramaniam",
-      "Director General",
+      "Director of IP",
       {
         linkedin: "https://www.linkedin.com/in/ashutosh-balasubramaniam-03106a258/",
         instagram: "https://www.instagram.com/ashutoshbala_/",
