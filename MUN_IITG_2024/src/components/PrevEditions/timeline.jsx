@@ -1,25 +1,50 @@
-import styles from './timeline.module.css'
-import TimelineModal from './timelineModal';
-import timelineData from '../../data/timelineData'
-import arrow from '../../assets/prevEditions/arrow.svg'
+// File: src/components/PrevEditions/Timeline.jsx
+import React from 'react';
 
+// Since Timeline.jsx lives in PrevEditions/, and your images are in PrevEditions/photoes/,
+// you can import them like this:
+import aImg from './photoes/a.png';
+import bImg from './photoes/b.png';
+import cImg from './photoes/c.png';
+import dImg from './photoes/d.png';
+import eImg from './photoes/e.png';
+
+const images = [
+  { src: aImg, alt: 'Edition A' },
+  { src: bImg, alt: 'Edition B' },
+  { src: cImg, alt: 'Edition C' },
+  { src: dImg, alt: 'Edition D' },
+  { src: eImg, alt: 'Edition E' },
+];
 
 const Timeline = () => {
-    
-    return (
-        <div className='timeline'>
-            p
-            <img src="src/components/PrevEditions/photoes/a.png" alt="MUN Editions" className="img1"
-            style={{ width: '100vw', height: 'auto' }} ></img>
-            <img src="src/components/PrevEditions/photoes/b.png" style={{ width: '100vw', height: 'auto' }}/>
-            <img src="src/components/PrevEditions/photoes/c.png" style={{ width: '100vw', height: 'auto' }}/>
-            <img src="src/components/PrevEditions/photoes/d.png" style={{ width: '100vw', height: 'auto' }}/>
-            <img src="src/components/PrevEditions/photoes/e.png" style={{ width: '100vw', height: 'auto' }}/>
-    
-        </div>
-    );
+  return (
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+      }}
+    >
+      {images.map((img, idx) => (
+        <img
+          key={idx}
+          src={img.src}
+          alt={img.alt}
+          style={{
+            width: '100vw',
+            height: 'auto',
+            objectFit: 'contain',
+            marginBottom: '1rem',
+          }}
+        />
+      ))}
+    </div>
+  );
 };
+
 export default Timeline;
+
 
 
 // <div className="bg-white-100 min-h-screen flex justify-center items-center p-24 m-4">
